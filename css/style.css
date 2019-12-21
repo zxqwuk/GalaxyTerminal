@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+ body {
+    margin: 0px;
+    background-color: #000;
+    /*background-image: url("../image/watch_bg.png");*/
+    font-family: Ubuntu, sans-serif;
+    color: #FFF;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+@-webkit-keyframes anim {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+}
+@-moz-keyframes anim {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+}
+@-o-keyframes anim {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+}
+@keyframes anim {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+}
+#main {
+    position: relative;
+    left: 50%;
+    width: 271px;
+    top: 35px;
+    margin: -0px -135.5px;
+}
+cl {
+    background: linear-gradient(135deg, #80ffdb, #a600ff);
+    background-size: 200% 100%;
+    -webkit-animation: anim 10s ease infinite;
+    -moz-animation: anim 10s ease infinite;
+    -o-animation: anim 10s ease infinite;
+    animation: anim 10s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#info {
+	position: relative;
+	width: 300px;
+	left: 21px;
+}
+#terminal1 {
+    position: relative;
+    width: 226px;
+    left: 50%;
+    margin: 0px -113px;
+}
+#time {
+    position: relative;
+    font-size: 120px;
+    left: 50%;
+    top: -10px;
+    width: 294px;
+    margin: 0px -150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #80ffdb, #a600ff);
+    background-size: 200% 100%;
+    -webkit-animation: anim 20s ease infinite;
+    -moz-animation: anim 20s ease infinite;
+    -o-animation: anim 20s ease infinite;
+    animation: anim 20s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#info {
+	position: relative;
+	width: 1px;
+}
+#date {
+    position: relative;
+    left: 80px;
+    width: 300px;
+    top: -23.5px;
+    color: white;
+}
+#batt {
+    position: relative;
+    left: 80px;
+    width: 300px;
+    top: -48.5px;
+    color: white;
+}
+#steps {
+    position: relative;
+    left: 80px;
+    width: 300px;
+    top: -104px;
+    color: white;
+}
+#heart {
+    position: relative;
+    left: 80px;
+    top: -129px;
+    width: 300px;
+    color: white;
+}
+#date_ {
+	position: relative;
+    color: #FF0000;
+    letter-spacing: 2px;
+    width: 200px;
+}
+#batt_ {
+	position: relative;
+    color: #FF0000;
+    top: -25px;
+    letter-spacing: 2.1px;
+    width: 200px;
+}
+#steps_ {
+	position: relative;
+    color: #FF0000;
+    top: -80.5px;
+    left: 0px;
+    letter-spacing: 2.65px;
+    width: 200px;
+}
+#heart_ {
+	position: relative;
+    color: #FF0000;
+    top: -105.5px;
+    left: 0px;
+    letter-spacing: 2px;
+    width: 200px;
+}
+
+#battery-icon {
+    position: relative;
+    top: 2px;
+    width: 32px;
+    height: 17px;
+    border: 1px solid white;
+}
+#battery-fill {
+    background-color: white;
+    height: 100%;
+    width: 10%;
+}
+#battery-icon2 {
+    position: relative;
+    width: 3px;
+    height: 12px;
+    top: -13.5px;
+    left: 33px;
+    background-color: white;
+}
+#battery {
+    position: relative;
+    left: 47px;
+    top: -30.5px;
+}
+
+#terminal2 {
+    position: relative;
+    top: 10px;
+    left: 22px;
+}
