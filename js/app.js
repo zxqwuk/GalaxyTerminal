@@ -67,8 +67,6 @@
      var batteryIcon = document.getElementById("battery-icon");
      var batteryIcon2 = document.getElementById("battery-icon2");
 
-     batteryLevel = batteryLevel + 1;
-
      batteryFill.style.width = batteryLevel + "%";
      batteryPercent.innerHTML = batteryLevel + "%";
 
